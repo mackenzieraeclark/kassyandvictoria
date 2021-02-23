@@ -1,13 +1,37 @@
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import RSVP from "./Components/RSVP";
+import Story from "./Components/Story";
+import DayOf from "./Components/DayOf";
+import Registry from "./Components/Registry";
+import Footer from "./Components/Footer";
 
-function App() {
-  return (
-    <div className="container">
-      <div>
-        hello
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Navbar />
+        <Hero
+          id="section1"
+        />
+        <RSVP
+          id="section2"
+        />
+        <Story
+          id="section3"
+        />
+        <DayOf
+          id="section4"
+        />
+        <Registry
+          id="section5"
+        />
+        <Footer />
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
