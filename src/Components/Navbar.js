@@ -11,7 +11,7 @@ export default class Navbar extends Component {
       <nav className="nav" id="navbar">
         <div className="nav-content">
           <ul className="nav-items">
-            <li className="nav-item">
+            <li className="nav-item" style={{ fontWeight: 'bold' }}>
               <Link
                 activeClass="active"
                 to="section1"
