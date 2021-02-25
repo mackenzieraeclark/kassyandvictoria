@@ -114,6 +114,32 @@ button {
 }
 
 
+/* Gallery */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1em;
+    padding: 10em 2em;
+    margin: 0 auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 750px){
+    .gallery{
+        display: block;
+    }
+    .gallery-item{
+        margin-bottom: 1rem;
+    }
+}
+
+
 /* VIEWPORT FIXES */
 
 @media only screen and (min-width: 1000px) {

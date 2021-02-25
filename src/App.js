@@ -5,6 +5,7 @@ import Hero from "./Components/Hero";
 import RSVP from "./Components/RSVP";
 import Story from "./Components/Story";
 // import DayOf from "./Components/DayOf";
+import Gallery from "./Components/Gallery";
 import Registry from "./Components/Registry";
 import Footer from "./Components/Footer";
 
@@ -22,6 +23,7 @@ class App extends Component {
         <Story
           id="section3"
         />
+        <Gallery />
         {/* <DayOf
           id="section4"
         /> */}
