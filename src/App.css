@@ -18,6 +18,13 @@
 .column {
     flex: 50%;
     padding: 1em;
+    width: 100% !important;
+}
+
+/* COLORS */
+
+.sage {
+    background-color: #798E7B;
 }
 
 /* NAVIGATION */
@@ -25,11 +32,10 @@
 .nav {
     position: sticky;
     top: 0px;
-    
     width: 100%;
     height: 80px;
-
     z-index: 1000;
+    background-color: #F5F0F2;
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -61,8 +67,22 @@
     width: 100%;
 }
 
+/* CARD */
 
+.card {
+    height: 100vh;
+    width: 100% !important;
+}
 
+.card-content {
+    padding: 0em 15em;
+}
+
+input {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: -20em;
+}
 
 
 /* VIEWPORT FIXES */
