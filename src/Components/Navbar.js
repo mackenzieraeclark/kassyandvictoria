@@ -47,7 +47,7 @@ export default class Navbar extends Component {
                 Our Story
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 activeClass="active"
                 to="section4"
@@ -58,7 +58,7 @@ export default class Navbar extends Component {
               >
                 Day-Of
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link
                 activeClass="active"
