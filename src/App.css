@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 /* two column layout */
@@ -17,7 +17,7 @@
 
 .column {
     flex: 50%;
-    padding: 3em;
+    padding: 1em;
 }
 
 /* NAVIGATION */
@@ -60,3 +60,27 @@
 .footer > img {
     width: 100%;
 }
+
+
+
+
+
+/* VIEWPORT FIXES */
+
+@media only screen and (min-width: 1000px) {
+    .column {
+        padding: 2.5em;
+    }
+  }
+
+@media only screen and (max-width: 800px) {
+    h4 {
+        font-size: small;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    h4 {
+        font-size: x-small;
+    }
+  }
