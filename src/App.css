@@ -21,11 +21,18 @@
     width: 100% !important;
 }
 
-/* COLORS */
+a:link {
+    color: #181E1E;
+    text-decoration: none !important;
+  } 
 
-.sage {
-    background-color: #798E7B;
-}
+a:visited {
+    color: #181E1E;
+  }
+  
+a:hover {
+    color: #798E7B;
+  }
 
 
 /* NAVIGATION */
@@ -76,7 +83,7 @@
 }
 
 .card-content {
-    padding: 0em 15em;
+    padding: .3em 10em;
     border-radius: 20px;
     border: none;
     box-sizing: border-box;
