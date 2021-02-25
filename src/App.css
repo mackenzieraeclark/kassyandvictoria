@@ -85,13 +85,14 @@
 }
 
 input {
-    margin-top: .5em;
+    margin-top: .7em;
     margin-bottom: 2.2em;
-    padding: .5em;
+    padding: .7em;
     border: none;
     background: #f5f1f4;
     border-radius: 50px;
     box-shadow: inset 6px 6px 6px #d1cbcf, inset -6px -6px 6px white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 button {
@@ -102,6 +103,7 @@ button {
     box-shadow: 7px 7px 10px #d1cbcf, -7px -7px 10px white;
     border: none;
     color: rgb(102, 101, 101);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 

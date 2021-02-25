@@ -15,6 +15,7 @@ export default function RSVP({ id }) {
           <form onSubmit={handleSubmit}
             method="POST" action="https://script.google.com/macros/s/AKfycbzNoBQDZBGrYO2RFSi3B4co7HstzQFf75V-qt4vkv3vb1KyfblfVGgGmw/exec"
           >
+            <h3>RSVP</h3>
             <fieldset className="card-content">
                 <input name="name" placeholder="Name" />
               <br />
