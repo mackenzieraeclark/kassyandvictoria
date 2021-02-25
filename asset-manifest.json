@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.71609f74.chunk.css",
+    "main.js": "/static/js/main.2111ad64.chunk.js",
+    "main.js.map": "/static/js/main.2111ad64.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2bf47d38.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2bf47d38.js.map",
+    "static/js/2.e294e685.chunk.js": "/static/js/2.e294e685.chunk.js",
+    "static/js/2.e294e685.chunk.js.map": "/static/js/2.e294e685.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.71609f74.chunk.css.map": "/static/css/main.71609f74.chunk.css.map",
+    "static/js/2.e294e685.chunk.js.LICENSE.txt": "/static/js/2.e294e685.chunk.js.LICENSE.txt",
+    "static/media/1.3c40ce82.jpeg": "/static/media/1.3c40ce82.jpeg",
+    "static/media/2.5b27fd82.jpeg": "/static/media/2.5b27fd82.jpeg",
+    "static/media/3.9bbbae1d.jpeg": "/static/media/3.9bbbae1d.jpeg",
+    "static/media/4.a7b05fbf.jpeg": "/static/media/4.a7b05fbf.jpeg",
+    "static/media/5.b8a43907.jpeg": "/static/media/5.b8a43907.jpeg",
+    "static/media/happyEverAfter.0155296d.jpeg": "/static/media/happyEverAfter.0155296d.jpeg",
+    "static/media/hero.1172d80a.jpeg": "/static/media/hero.1172d80a.jpeg",
+    "static/media/ourStory1.4bfb5d03.jpeg": "/static/media/ourStory1.4bfb5d03.jpeg",
+    "static/media/ourStory2.a5fd677b.jpeg": "/static/media/ourStory2.a5fd677b.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2bf47d38.js",
+    "static/js/2.e294e685.chunk.js",
+    "static/css/main.71609f74.chunk.css",
+    "static/js/main.2111ad64.chunk.js"
+  ]
+}
