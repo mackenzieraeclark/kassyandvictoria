@@ -27,6 +27,7 @@
     background-color: #798E7B;
 }
 
+
 /* NAVIGATION */
 
 .nav {
@@ -76,12 +77,31 @@
 
 .card-content {
     padding: 0em 15em;
+    border-radius: 20px;
+    border: none;
+    box-sizing: border-box;
+    background: #f5f1f4;
+    box-shadow: 14px 14px 20px #d1cbcf, -14px -14px 20px white;
 }
 
 input {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-left: -20em;
+    margin-top: .5em;
+    margin-bottom: 2.2em;
+    padding: .5em;
+    border: none;
+    background: #f5f1f4;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #d1cbcf, inset -6px -6px 6px white;
+}
+
+button {
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 20%;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 10px #d1cbcf, -7px -7px 10px white;
+    border: none;
+    color: rgb(102, 101, 101);
 }
 
 
