@@ -23,7 +23,7 @@ export default class Navbar extends Component {
                 Kassy and Victoria
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 activeClass="active"
                 to="section2"
@@ -34,7 +34,7 @@ export default class Navbar extends Component {
               >
                 RSVP
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link
                 activeClass="active"
