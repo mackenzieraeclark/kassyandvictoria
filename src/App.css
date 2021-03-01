@@ -148,14 +148,8 @@ button {
     }
   }
 
-@media only screen and (max-width: 800px) {
-    h4 {
-        font-size: small;
-    }
-  }
-
   @media only screen and (max-width: 600px) {
     h4 {
-        font-size: x-small;
+        font-size: 1em;
     }
   }
