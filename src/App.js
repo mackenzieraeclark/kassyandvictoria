@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
-import RSVP from "./Components/RSVP";
+// import RSVP from "./Components/RSVP";
 import Story from "./Components/Story";
 // import DayOf from "./Components/DayOf";
 import Gallery from "./Components/Gallery";
@@ -17,9 +17,9 @@ class App extends Component {
         <Hero
           id="section1"
         />
-        <RSVP
+        {/* <RSVP
           id="section2"
-        />
+        /> */}
         <Story
           id="section3"
         />
