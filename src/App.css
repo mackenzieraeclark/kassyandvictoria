@@ -74,6 +74,36 @@ a:hover {
     }
 }
 
+/* HERO */
+
+.Hero {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: #F5F0F2;
+}
+
+.Hero-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+@media (min-width: 650px ) {
+    .Hero {
+        background-position: center center;
+    }
+
+    .Hero-content {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 
 /* FOOTER */
 
