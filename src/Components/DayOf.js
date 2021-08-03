@@ -4,7 +4,9 @@ export default function DayOf({ id }) {
   return (
     <div className="container">
       <div id={id}>
-        DayOf
+        <div className="row">
+          <div className="column"></div>
+        </div>
       </div>
     </div>
   );
