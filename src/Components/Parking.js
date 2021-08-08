@@ -22,7 +22,7 @@ use the maps below for reference.</p>
             <p>The Shuttle service will begin transporting guests at 4:00 pm. Please plan
 accordingly. Directional signs will be posted along Miccosukee and Thornton
 Road. If you get lost, please call or text Andrea Tinoco at <strong>954-415-7318</strong>.</p>
-            <div style={{paddingTop: '2em'}}><img style={{maxWidth: '90%'}} src={map} alt="one" /></div>
+            <div style={{paddingTop: '2em'}}><img style={{maxWidth: '90%'}} src={map} alt="map" /></div>
           </div>
         </div>
       </div>

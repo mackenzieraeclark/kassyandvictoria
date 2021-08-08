@@ -479,3 +479,24 @@ button {
   }
   
   }
+
+
+  iframe {
+    width: 800px;
+    height: 500px;
+    border: none;
+  }
+
+  #rsvpLink {
+    display: none;
+  }
+
+  @media screen and (max-width: 800px) {
+    iframe {
+      display: none;
+    }
+
+    #rsvpLink {
+      display: block;
+    }
+  }
