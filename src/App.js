@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
+import RSVP from "./Components/RSVP";
 import Timeline from "./Components/Timeline";
 import Parking from "./Components/Parking"
-import FAQs from "./Components/FAQs"
+import FAQs from "./Components/FAQs";
 import Story from "./Components/Story";
 import Gallery from "./Components/Gallery";
 import Registry from "./Components/Registry";
@@ -18,21 +19,24 @@ class App extends Component {
         <Hero
           id="section1"
         />
-        <Timeline
+        <RSVP
           id="section2"
         />
-        <Parking
+        <Timeline
           id="section3"
         />
-        <FAQs
+        <Parking
           id="section4"
         />
-        <Story
+        <FAQs
           id="section5"
+        />
+        <Story
+          id="section6"
         />
         <Gallery />
         <Registry
-          id="section6"
+          id="section7"
         />
         <Footer />
       </div>

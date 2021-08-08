@@ -1,5 +1,4 @@
 import React from "react";
-import { FaShuttleVan } from "react-icons/fa";
 
 export default function Timeline({ id }) {
   return (
@@ -75,7 +74,7 @@ export default function Timeline({ id }) {
       <span class="flag">Shuttle Services</span>
       <span class="time-wrapper"><span class="time">9:00 PM</span></span>
     </div>
-    <div class="desc"><FaShuttleVan/></div>
+    <div class="desc"></div>
   </div>
 </li>
 

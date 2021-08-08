@@ -7,6 +7,10 @@
     width: 100%;
 }
 
+li, ul {
+  list-style-type: none;
+}
+
 /* two column layout */
 .row {
     display: flex;
@@ -141,13 +145,14 @@ input {
 
 button {
     margin-top: 1em;
-    padding: 1em;
+    padding: 1em 3em;
     border-radius: 20%;
     box-sizing: border-box;
     box-shadow: 7px 7px 10px #d1cbcf, -7px -7px 10px white;
     border: none;
     color: rgb(102, 101, 101);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
 }
 
 

@@ -32,7 +32,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Wedding Timeline
+                RSVP
               </Link>
             </li>
             <li className="nav-item">
@@ -44,7 +44,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Parking
+                Wedding Timeline
               </Link>
             </li>
             <li className="nav-item">
@@ -56,7 +56,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                FAQs
+                Parking
               </Link>
             </li>
             <li className="nav-item">
@@ -68,13 +68,25 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Our Story
+                FAQs
               </Link>
             </li>
             <li className="nav-item">
               <Link
                 activeClass="active"
                 to="section6"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Our Story
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="section7"
                 spy={true}
                 smooth={true}
                 offset={-70}
