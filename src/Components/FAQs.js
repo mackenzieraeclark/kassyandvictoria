@@ -125,7 +125,7 @@ would recommend looking for an Airbnb first and then a hotel.</li>
             <br/>
             <h2>Do you have any recommendations for local restaurants?</h2> 
             <ul>
-              <li>Of course, here are some of our favorite local spots!
+              <li>Of course, here are some of our favorite local spots!</li>
                 <br/>
                 <li>
                 * Dinner/Lunch: Natural Kitchen $, Wok N Roll $, Momo’s Pizza $, Backwoods
@@ -140,7 +140,6 @@ Beanz $$$,
                 <li>
                 * Coffee: Lucky Goat and Red Eye
                 </li>
-              </li>
             </ul>
           </div>
         </div>

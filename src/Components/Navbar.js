@@ -80,7 +80,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Our Story
+                Story
               </Link>
             </li>
             <li className="nav-item">
