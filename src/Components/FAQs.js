@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function DayOf({ id }) {
+export default function FAQs({ id }) {
   return (
     <div className="container">
       <div id={id}>

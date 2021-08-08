@@ -23,7 +23,7 @@ export default class Navbar extends Component {
                 Kassy and Victoria
               </Link>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <Link
                 activeClass="active"
                 to="section2"
@@ -32,9 +32,9 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                RSVP
+                Wedding Timeline
               </Link>
-            </li> */}
+            </li>
             <li className="nav-item">
               <Link
                 activeClass="active"
@@ -44,7 +44,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Our Story
+                Parking
               </Link>
             </li>
             <li className="nav-item">
@@ -56,13 +56,25 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Day of Instructions
+                FAQs
               </Link>
             </li>
             <li className="nav-item">
               <Link
                 activeClass="active"
                 to="section5"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Our Story
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="section6"
                 spy={true}
                 smooth={true}
                 offset={-70}
