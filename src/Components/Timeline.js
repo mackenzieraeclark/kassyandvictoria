@@ -79,7 +79,7 @@ export default function Timeline({ id }) {
   <div class="direction-r">
     <div class="flag-wrapper">
       <span class="flag">Shuttle Services</span>
-      <span class="time-wrapper"><span class="time">9:00 PM</span></span>
+      <span class="time-wrapper"><span class="time">9:15 PM</span></span>
     </div>
     <div class="desc"><img style={{maxWidth: '40%'}} src={shuttle} alt="shuttle" /></div>
   </div>

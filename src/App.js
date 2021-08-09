@@ -19,19 +19,19 @@ class App extends Component {
         <Hero
           id="section1"
         />
-        <RSVP
+        <Story
           id="section2"
         />
-        <Timeline
+        <RSVP
           id="section3"
         />
-        <Parking
+        <Timeline
           id="section4"
         />
-        <FAQs
+        <Parking
           id="section5"
         />
-        <Story
+        <FAQs
           id="section6"
         />
         <Gallery />
